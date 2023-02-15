@@ -1,0 +1,70 @@
+{
+  "login": [
+    {
+      "name": "Chethan",
+      "email": "c@gmail.com",
+      "phonenumber": 9876543212,
+      "password": "1234",
+      "id": 5
+    },
+    {
+      "name": "mohan",
+      "email": "m@gmail.com",
+      "phonenumber": 98765432232,
+      "password": "1234",
+      "id": 6
+    },
+    {
+      "name": "mallikarjun",
+      "email": "ma@gmail.com",
+      "phonenumber": 9999888877,
+      "password": "123",
+      "id": 7
+    },
+    {
+      "name": "Mohan",
+      "email": "mohan@gmail.com",
+      "phonenumber": 9878788888,
+      "password": "1234",
+      "id": 8
+    },
+    {
+      "name": "Monika",
+      "email": "monika@gmail.com",
+      "phonenumber": 9988660098,
+      "password": "1234",
+      "id": 9
+    },
+    {
+      "name": "abcd",
+      "email": "ab@gmail.com",
+      "phonenumber": 1223,
+      "password": "1234",
+      "id": 10
+    },
+    {
+      "name": "Mohan",
+      "email": "mohan@gmail.com",
+      "phonenumber": 9908987890,
+      "password": "Mohan@123",
+      "id": 11
+    },
+    {
+      "name": "mohan",
+      "email": "mohan@gmail.com",
+      "phonenumber": 9090909090,
+      "password": "Mohan@12345",
+      "id": 12
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

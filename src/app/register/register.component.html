@@ -1,0 +1,38 @@
+<form class="login-form marginn" [formGroup]="profileForm" >
+
+    <h2>Registration Form</h2>
+
+    <div class="form-group ">
+        <label class="text-uppercase">Name <span>*</span></label>
+        <input id="name" formControlName="name" type="text" class="form-control is-invalid" placeholder="please enter your name" />
+       <span class="invalid-feedback" 
+       *ngIf="profileForm.get('name')?.hasError('required') && profileForm.get('name')?.touched">Name is Required.</span>
+    </div>
+    
+    <div class="form-group">
+        <label >Email *</label>
+        <input formControlName="email" type="email" class="form-control is-invalid" placeholder="please enter your email"   />
+        <span class="invalid-feedback" 
+       *ngIf="profileForm.get('email')?.hasError('required') && profileForm.get('email')?.touched">Email is Required.</span>
+    </div>
+
+    <div class="form-group ">
+        <label class="text-uppercase">Phone number *</label>
+        <input formControlName="phonenumber" type="number" class="form-control is-invalid" minlength="10"  maxlength="10"  placeholder="please enter your phonenumber" />
+        <span class="invalid-feedback" 
+        *ngIf="profileForm.get('phonenumber')?.hasError('required') && profileForm.get('phonenumber')?.touched">Phone number is Required.</span>
+    </div>
+
+    <div class="form-group">
+    <label>Password*</label>
+    <input type="password" class="form-control is-invalid" formControlName="password" placeholder="please enter your password"/>
+    <span class="invalid-feedback" 
+    *ngIf="profileForm.get('password')?.hasError('required') && profileForm.get('password')?.touched">Password is Required.</span>
+    </div>
+
+    <p><a href="/login">Already have an account?</a></p>
+
+    <button type="submit" class="btn btn-primary mt-2" [disabled]="!profileForm.valid" (click)="addContact()">Register</button>
+
+
+  </form>

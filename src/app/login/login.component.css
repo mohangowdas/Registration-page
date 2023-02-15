@@ -1,0 +1,45 @@
+input[type=text] {
+    width: 100%;
+    padding: 12px;
+    /* padding-bottom: 50px; */
+    border: 1px solid grey;
+    border-radius: 20px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    
+  }
+ 
+  input[type=password] {
+    width: 100%;
+    padding: 12px;
+    /* padding-bottom: 50px; */
+    border: 1px solid grey;
+    border-radius: 20px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    
+  }
+
+   
+  input[type=email] {
+    width: 100%;
+    padding: 12px;
+    /* padding-bottom: 50px; */
+    border: 1px solid grey;
+    border-radius: 20px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    
+  }
+
+  .loginbutton{
+  margin-left: 150px;
+  }
+
+
