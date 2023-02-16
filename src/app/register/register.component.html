@@ -5,7 +5,7 @@
     <div class="form-group ">
         <label class="text-uppercase">Name <span>*</span></label>
         <input id="name" formControlName="name" type="text" class="form-control is-invalid" placeholder="please enter your name" />
-       <span class="invalid-feedback" 
+       <span class="invalid-feedback"  
        *ngIf="profileForm.get('name')?.hasError('required') && profileForm.get('name')?.touched">Name is Required.</span>
     </div>
     
